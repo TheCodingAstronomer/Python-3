@@ -1,0 +1,23 @@
+friends=["Codey","Grant","Karen","SpongeBob","Patrick","Oscar","Elijah","Karen"]
+luckyNums=[3,5,7,1,13,17,23,29,31]
+friends2=friends.copy()
+print(friends2)
+friends.reverse()
+print(friends)
+friends.sort()
+print(friends)
+friends.extend(luckyNums)
+print(friends)
+friends.append("Albert")
+print(friends)
+friends.insert(4,"Nicole")
+print(friends)
+friends.remove("Oscar")
+print(friends)
+friends.pop()
+print(friends)
+print(friends.index("SpongeBob"))
+print(friends.count("Karen"))
+#To reset the entire array.
+friends.clear()
+print(friends)
